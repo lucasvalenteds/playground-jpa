@@ -6,6 +6,7 @@ and TestContainers to provision Postgres database before test execution.
 
 ## How to run
 
-| Description | Command          |
-|:------------|:-----------------|
-| Run tests   | `./gradlew test` |
+| Description   | Command                                  |
+|:--------------|:-----------------------------------------|
+| Run tests     | `./gradlew test`                         |
+| Create module | `./gradlew createModule -Pmodule=<name>` |
