@@ -119,3 +119,11 @@ val createModule by tasks.creating<Task> {
         logger.info("Module named $module created successfully")
     }
 }
+
+project(":monetary-amount") {
+    dependencies {
+        implementation("org.javamoney:moneta:1.4.2")
+        implementation("io.hypersistence:hypersistence-utils-hibernate-60:3.1.1")
+        implementation("com.fasterxml.jackson.module:jackson-module-jakarta-xmlbind-annotations")
+    }
+}
